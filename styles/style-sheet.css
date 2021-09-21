@@ -1,0 +1,148 @@
+
+#gotocv{
+    margin: 10px;
+
+}
+#gotoprojects{
+    margin: 10px;
+    
+}
+.proj_div{
+    padding-bottom: 20px;
+}
+#gotocontact{
+    margin: 10px;
+}
+
+body{
+    background-color: #376E6f;
+    
+   
+}
+@media (max-width: 979px) {
+    body{
+        padding-top: 0px;
+    }
+}
+
+.nav-link, a.nav-link{
+    color: black;
+    font-family: Roboto;
+    font-size: xx-large;
+ 
+}
+
+.heading{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+p{
+  font-family: Roboto;
+  font-style: italic;
+}
+
+.form_label{
+    font-family: Roboto;
+    font-style: italic;
+    
+}
+
+.card h1{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+}
+.card h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;  
+}
+
+.blogdiv {
+    margin: 10px;
+    padding-bottom: 20px;
+  
+}
+.aboutdiv {
+    margin: 10px;
+}
+
+.about-cont p {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+
+.heading h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+
+}
+
+.author {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+}
+.date {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+}
+.blogpic{
+    justify-content: center;
+}
+
+.card button {
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: black;
+    font-weight: bold;
+}
+article p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+}
+
+article h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+article ul {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+}
+.blogtitle{
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+card{
+    overflow: hidden;
+}
+.pic_div{
+    max-width: 100%;
+}
+
+
+.fa {
+    margin: 20px;
+}
+
+.projecttitle{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+}

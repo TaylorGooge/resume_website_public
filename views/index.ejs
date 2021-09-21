@@ -1,0 +1,47 @@
+<script src = "projectbuilder.js"></script>
+<%- include('maintemplate.ejs') %>
+
+    <!-- cv section -->
+  
+    <a id="gotocv">  </a>
+        <div class= "container bg-light">
+          <h1 class= "heading">CV/ Resume</h1>
+          <iframe src="https://drive.google.com/file/d/13ZxYQTQcDy6QmGfDZyde7A88qql1HULn/preview" style='height: 800px; width: 100%;' scrolling= "no" framenborder = "0" ></iframe>
+        </div>
+  
+
+    <!--projects section-->  
+    <a  id="gotoprojects"></a>
+        <script>projectBuilder()</script>
+        <div class = "container bg-light proj_div">
+            <h1 class= "heading">Projects</h1>
+            <div class="accordion" id="myAccordion">
+            </div>
+        </div>
+    
+   <!-- contact form -->
+   <a id = "gotocontact"></a>
+      <div  class = "container bg-light">
+              <h1 class = "heading">Contact Me</h1>
+        <div class = "contact-form">
+          <div class= 'container'>
+            <form action= "https://formspree.io/f/xdoygnbn" method = "POST">
+              <div class= "form-group">
+                <label class = "form-label" for="name">Name</label>
+                <input type="text" class="form-control" id="name" required style = "width: 300px" />
+              </div>
+              <div class= "form-group">
+                <label class = "form-label" for="email">Email</label>
+                <input type="email" class="form-control" id="email" required style = "width: 300px" />
+              </div>
+              <div class= "form-group">
+                <label class = "form-label" for="message">Message</label>
+                <input type="text" class="form-control" id="message" required style= "width: 300px; height: 300px" />
+              </div>
+              <button type = submit class = "btn btn-secondary" style = "margin-bottom:10px;">Submit</button>
+            </form>
+          </div>
+        </div>  
+      </div>       
+    </body> 
+  </html>
